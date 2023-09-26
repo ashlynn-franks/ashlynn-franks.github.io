@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "description" content = "Ashlynn's personal website at Sam Houston State University">
+        <meta name = "keyword" content = "Ashlynn Franks, Sam Houston State University, Senior student, MIS, Computing Science">
+        <title>Project | Ashlynn Franks</title>
+        <link rel = "stylesheet" href = "styles/project.css">
+    </head>
+    <body>
+        <header>
+            <img src = "images/SmileyMiley.jpg" alt="Ashlynn's picure" width = "100" height = "100">
+            <h1 class = "shadow">Welcome to my web site!</h1>
+            <h2 class = "shadow">ashlynn-franks.github.io</h2>
+        </header>
+        <article>
+            <h3> MGIS 3320 Web Development Project</h3>
+            <img src = "images/city.jpg" alt = "city picture" title = "Picture of a city" width = "100" height = "100">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolores officia maxime est? Dolore ut consequatur earum iste laboriosam, et, aliquam voluptatum necessitatibus labore quibusdam optio perspiciatis? Quis aliquid dignissimos similique tempora, culpa nemo minus quam laboriosam veritatis eum maxime quas illo magnam doloribus vel, unde earum eveniet debitis reiciendis nobis explicabo! Architecto minus pariatur quas repellendus, mollitia quis, neque ad, tempora officiis repellat sed. Pariatur, beatae sint? Facere iure sed quam, pariatur non quaerat aperiam, nisi sit modi, ut similique officiis libero eligendi necessitatibus ipsa id maxime tempore eveniet deserunt repellat nesciunt. Quisquam minus maiores fugiat ratione, incidunt a modi dolorum corrupti ad eligendi atque ipsum magni nesciunt esse molestias asperiores enim. Nihil maiores autem quae cupiditate laudantium officiis accusantium amet sit, consequatur qui minus rerum corrupti odio eligendi soluta doloremque ex aut aspernatur impedit. Nihil officia sed voluptatem reprehenderit quod deserunt laborum nisi, soluta eaque, cupiditate dicta, ut repudiandae inventore voluptas ea quaerat? Voluptates praesentium excepturi aperiam quas animi tenetur necessitatibus incidunt nemo non provident fugit distinctio nulla, dolore fuga vitae autem quam facere esse cupiditate. In non corporis modi odit obcaecati blanditiis, atque quam molestias rem officia hic natus incidunt beatae illo placeat? Molestias minus reprehenderit ea?</p>
+        </article>
+        <aside>
+        <h4>Refrences</h4>
+        <ol>
+            <li><a href = "https://www.W3schools.com">W3Schools</a></li>
+            <li><a href ="https://developer.mozilla.org">Mozilla</a></li>
+            <li><a href = "https://learn.microsoft.com/en-us/training/paths/web-development-101/">Microsoft</a></li>
+        </ol>
+        <a href = "https://ashlynn-franks.github.io">Return to home page</a>
+    </aside>
+    <footer>
+    <p class = "fixed"> Contact me at amf094@shsu.edu</p>
+    </footer>
+    </body>
+</html>

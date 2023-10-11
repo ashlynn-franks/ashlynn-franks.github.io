@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient( to bottom, white 0%, #facd8a 100%);
 }
 body {
     width: 1000px;
@@ -14,14 +14,14 @@ body {
     padding-bottom: 15px;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    border: 1px, solid, black;
+    border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 
 }
 a:focus, a:hover{
     font-style: italic;
-    color: organgered
+    color: orangered
 }
 header h1 {
     font-size: 175%;
@@ -31,10 +31,10 @@ header h1 {
 header h2 {
     font-size: 130%;
     color: #800000
-    text-indent: 30px;
+    text-indent: 30px; 
 }
 img {
-    margin-left: ;
+    margin-left: 1 0;
     float: left;
 }
 .shadow {
@@ -48,9 +48,9 @@ main h3 {
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 1.5em;
-    border: 5px, double, blue;
+    border: 5px double blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px, red;
+    box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
     font-size: 105%;
 }
@@ -59,9 +59,9 @@ main nav{
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 1.5em;
-    border: 5px, dashed, blue;
+    border: 5px dashed blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px, red;
+    box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
 }
 div{
@@ -69,9 +69,9 @@ div{
     margin-right: 2em;
     margin-bottom: 0em;
     margin-left: 2em;
-    border: 5px, dotted, blue;
+    border: 5px dotted blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px, red;
+    box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
 #list {

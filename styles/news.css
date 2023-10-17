@@ -20,7 +20,9 @@ body {
     display: inline;
     list-style-type: none;
     margin-left: 1.25em;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    border-bottom: blue;
+}
 #nav_list ul li { 
     width: 200px;
     margin-bottom: .5em;

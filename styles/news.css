@@ -31,7 +31,7 @@ body {
     font-weight: bold;
     color: blue; }
 #nav_list ul li a.current {
-    background-color: silver; }
+    background-color: blue; }
 article {
     clear: left;
     width: 75%;
@@ -42,8 +42,9 @@ article {
     margin-left: 2em;
 }
 article img {
-    margin-left: 1px;
-    float: left;
+    width: 50%; 
+    margin-left: 1%; 
+    float: left
 }
 article p::first-letter{
     font-size: 3em;

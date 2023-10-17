@@ -17,6 +17,7 @@ body {
 
 }
 #nav_list ul { 
+    display: inline;
     list-style-type: none;
     margin-left: 1.25em;
     margin-bottom: 1.5em; }

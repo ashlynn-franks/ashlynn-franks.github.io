@@ -51,6 +51,16 @@ article p::first-letter{
     font-weight: bold;
     font-style: italic;
 }
+article h1{
+    font-size: 175%;
+    color: blue;
+    text-indent: 30px;
+}
+article h2{
+    font-size: 30%;
+    color: blue;
+    text-indent: 30px;
+}
 aside {
     width: 20%;
     float: right;
@@ -62,16 +72,6 @@ aside ol {
 }
 aside ul { 
     list-style-type: square;
-}
-header h1 {
-    font-size: 175%;
-    color: blue
-    text-indent: 30px;
-}
-header h2 {
-    font-size: 130%;
-    color: blue
-    text-indent: 30px; 
 }
 footer p.copyright {
     text-align: center;

@@ -37,9 +37,18 @@ article {
     width: 75%;
     float: left;
     column-count: 3;
-    column-rule: 2px dotted maroon;
+    column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
+}
+article img {
+    margin-left: 1px;
+    float: left;
+}
+article p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
 }
 aside {
     width: 20%;
@@ -62,16 +71,6 @@ header h2 {
     font-size: 130%;
     color: #800000
     text-indent: 30px; 
-}
-img {
-    margin-left: 1px;
-    float: left;
-}
-.shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
-}
-#list {
-    line-height: 1.5em;
 }
 footer p.copyright {
     text-align: center;

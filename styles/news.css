@@ -80,6 +80,7 @@ article h2{
 }
 aside {
     width: 20%;
+    position: fixed;
     float: right;
     background-color: lightblue;
     padding: 0.1em 1em 1em;

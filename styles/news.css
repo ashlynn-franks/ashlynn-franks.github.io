@@ -85,7 +85,7 @@ aside {
     background-color: lightblue;
     padding: 0.1em 1em 1em;
 }
-aside ol li {
+aside ol {
     list-style-type: upper-roman;
 }
 aside ul { 

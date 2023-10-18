@@ -83,7 +83,7 @@ aside {
     position: fixed right;
     float: right;
     background-color: lightblue;
-    padding: 0.1em 1em 1em;
+    padding: 1em 1em 1em;
 }
 aside ol {
     list-style-type: upper-roman;
@@ -98,7 +98,7 @@ aside ul {
     right: 0;
     border: 3px solid blue;
     background-color: lightblue;
-    padding: 1em 1em;
+    padding: 1em 1em 1em;
 }
 footer p.copyright {
     text-align: center;

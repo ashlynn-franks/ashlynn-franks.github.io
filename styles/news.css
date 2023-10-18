@@ -1,17 +1,6 @@
 html {
     background-image: white;
 }
-a{
-    text-align: center;
-    text-decoration: none;
-}
-ui{
-    text-align: center;
-}
-li{
-    display: inline;
-    text-align: center;
-}
 body {
     width: 95%;
     background-color: white;
@@ -26,9 +15,6 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 
-}
-#nav_list{
-    border-bottom: 4px solid blue;
 }
 #nav_list ul { 
     display: inline;

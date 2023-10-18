@@ -80,7 +80,7 @@ article h2{
 }
 aside {
     width: 20%;
-    position: fixed;
+    position: fixed right;
     float: right;
     background-color: lightblue;
     padding: 0.1em 1em 1em;
@@ -93,7 +93,7 @@ aside ul {
 }
 .fixed aside{
     width: auto;
-    position: fixed;
+    position: fixed right;
     bottom: 35%;
     right: 0;
     border: 3px solid blue;

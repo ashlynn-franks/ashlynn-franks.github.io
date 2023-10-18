@@ -28,6 +28,7 @@ ul{
     margin-left: 1.25em;
     margin-bottom: 1.5em; }
 #nav_list ul li { 
+    display: inline;
     width: 200px;
     margin-bottom: .5em;
     border: 2px solid blue; }

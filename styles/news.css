@@ -19,6 +19,9 @@ body {
 ul{
     display: inline;
 }
+#nav_list{
+    border-bottom: 4px solid blue;
+}
 #nav_list ul { 
     display: inline;
     list-style-type: none;

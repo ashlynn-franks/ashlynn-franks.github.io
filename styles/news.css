@@ -1,32 +1,20 @@
 html {
     background-image: white;
+}
+body {
+    width: 95%;
+    background-color: white;
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 25px;
-    box-shadow: 10px 10px 0 0;
+    box-shadow: 5px 5px 0 0;
 
-
-}
-
-ui{
-    text-align: center;
-}
-li{
-    display: inline;
-    text-align: center;
-}
-body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif,upper-roman;
-    font-size: 100%;
-    width: 95%;
-    margin: 15px auto;
-}
-#nav_list{
-    border-bottom: 4px solid blue;
 }
 #nav_list ul { 
     display: inline;
@@ -51,9 +39,8 @@ article {
     float: left;
     column-count: 3;
     column-rule: 2px dotted blue;
-    column-gap: 1em;
+    column-gap: 2em;
     margin-left: 2em;
-    border-bottom: 4px solid blue;
 }
 article img {
     width: 50%; 
@@ -77,11 +64,9 @@ article h2{
 }
 aside {
     width: 20%;
-    position: fixed right;
     float: right;
     background-color: lightblue;
-    padding: 1em 1em 1em;
-    list-style-type: upper-roman;
+    padding: 0.1em 1em 1em;
 }
 aside ol {
     list-style-type: upper-roman;
@@ -96,8 +81,7 @@ aside ul {
     right: 0;
     border: 3px solid blue;
     background-color: lightblue;
-    padding: 1em 1em 1em;
-    list-style-type: upper-roman;
+    padding: 1em 1em;
 }
 footer p.copyright {
     text-align: center;

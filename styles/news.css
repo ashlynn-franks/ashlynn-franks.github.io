@@ -12,7 +12,6 @@ html {
 }
 a{
     text-align: center;
-    text-decoration: none;
 }
 ui{
     text-align: center;
@@ -84,6 +83,7 @@ aside {
     float: right;
     background-color: lightblue;
     padding: 1em 1em 1em;
+    list-style-type: upper-roman;
 }
 aside ol {
     list-style-type: upper-roman;

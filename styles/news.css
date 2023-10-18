@@ -43,57 +43,57 @@ ul{
     color: blue; }
 #nav_list ul li a.current {
     background-color: blue; }
-article {
-    clear: left;
-    width: 75%;
-    float: left;
-    column-count: 3;
-    column-rule: 2px dotted blue;
-    column-gap: 2em;
-    margin-left: 2em;
-}
-article img {
-    width: 50%; 
-    margin-left: 1%; 
-    float: left
-}
-article p::first-letter{
-    font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
-}
-article h1{
-    font-size: 175%;
-    color: blue;
-    text-indent: 30px;
-}
-article h2{
-    font-size: 120%;
-    color: blue;
-    text-indent: 30px;
-}
-aside {
-    width: 20%;
-    float: right;
-    background-color: lightblue;
-    padding: 0.1em 1em 1em;
-}
-aside ol {
-    list-style-type: upper-roman;
-}
-aside ul { 
-    list-style-type: square;
-}
-.fixed aside{
-    width: auto;
-    position: fixed;
-    bottom: 35%;
-    right: 0;
-    border: 3px solid blue;
-    background-color: lightblue;
-    padding: 1em 1em;
-}
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
-}
+    article {
+        clear: left;
+        width: 75%;
+        float: left;
+        column-count: 3;
+        column-rule: 2px dotted blue;
+        column-gap: 2em;
+        margin-left: 2em;
+    }
+    article img {
+        width: 50%; 
+        margin-left: 1%; 
+        float: left
+    }
+    article p::first-letter{
+        font-size: 3em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    article h1{
+        font-size: 175%;
+        color: blue;
+        text-indent: 30px;
+    }
+    article h2{
+        font-size: 120%;
+        color: blue;
+        text-indent: 30px;
+    }
+    aside {
+        width: 20%;
+        float: right;
+        background-color: lightblue;
+        padding: 0.1em 1em 1em;
+    }
+    aside ol {
+        list-style-type: upper-roman;
+    }
+    aside ul { 
+        list-style-type: square;
+    }
+    .fixed aside{
+        width: auto;
+        position: fixed;
+        bottom: 35%;
+        right: 0;
+        border: 3px solid blue;
+        background-color: lightblue;
+        padding: 1em 1em;
+    }
+    footer p.copyright {
+        text-align: center;
+        font-size: 80%;
+    }

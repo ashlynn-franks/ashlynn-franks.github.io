@@ -79,8 +79,8 @@ article h2{
     text-indent: 30px;
 }
 aside {
-    width: 25%;
-    position: fixed right;
+    width: 20%;
+    position: fixed;
     float: right;
     background-color: lightblue;
     padding: 0.1em 1em 1em;
@@ -91,12 +91,7 @@ aside ol {
 aside ul { 
     list-style-type: square;
 }
-footer{
-    margin-top: 3225px;
-    text-align: center;
-}
 .fixed aside{
-
     width: auto;
     position: fixed;
     bottom: 35%;

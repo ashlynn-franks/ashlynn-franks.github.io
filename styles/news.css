@@ -98,6 +98,6 @@ footer::before {
     background-color: blue;
 }
 footer p.copyright {
-    text-align: bottom;
+    text-align: end;
     font-size: 80%;
 }

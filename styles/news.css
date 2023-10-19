@@ -11,28 +11,30 @@ body {
     padding-bottom: 15px;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
-
 }
-#nav_list ul { 
-    display: inline;
-    list-style-type: none;
-    margin-left: 1.25em;
-    margin-bottom: 1.5em; }
-#nav_list ul li { 
-    width: 200px;
-    margin-bottom: .5em;
-    border: 2px solid blue; }
-#nav_list ul li a {
-    display: inline-block;
-    padding: .5em 0 .5em 1.5em;
+#nav_menu ul {
+     list-style-type: none; 
+}
+#nav_menu ul li {
+     float: left; 
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
     text-decoration: none;
+    background-color: blue;
+    color: white;
     font-weight: bold;
-    color: blue; }
-#nav_list ul li a.current {
-    background-color: blue; }
+    border-right: 2px solid white; 
+}
+#nav_menu ul li a.lastitem {
+     border-right: none; 
+}	
+#nav_menu ul li a.current {
+     color: yellow;
+}
 article {
     clear: left;
     width: 75%;

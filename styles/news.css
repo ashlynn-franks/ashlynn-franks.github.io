@@ -91,6 +91,12 @@ aside ul {
     background-color: lightblue;
     padding: 1em 1em;
 }
+footer::before {
+    content: "";
+    display: block;
+    height: 2px; 
+    background-color: blue;
+}
 footer p.copyright {
     text-align: bottom;
     font-size: 80%;

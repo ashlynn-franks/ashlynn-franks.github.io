@@ -35,6 +35,12 @@ body {
 #nav_menu ul li a.current {
     color: yellow;
 }
+nav::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: blue;
+}
 article {
     clear: left;
     width: 75%;

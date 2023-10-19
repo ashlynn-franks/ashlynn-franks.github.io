@@ -94,10 +94,10 @@ aside ul {
 footer::before {
     content: "";
     display: block;
-    height: 2px; 
+    height: 2px;
     background-color: blue;
 }
 footer p.copyright {
-    text-align: end;
+    text-align: bottom center;
     font-size: 80%;
 }

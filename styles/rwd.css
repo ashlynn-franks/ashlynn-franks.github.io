@@ -99,10 +99,10 @@ html, body {
         padding: 0.1em;
     }
     article h2 {
-        font-size: 1.1em;
+        font-size: 1.25em;
     }
     article p {
-        font-size: .8em;
+        font-size: 1em;
     }
     article img {
         margin: auto;
@@ -111,9 +111,9 @@ html, body {
         max-width: 760px;
     }
     footer {
-        border-top: 1px solid #f46b45;
+        border-top: 2px solid #f46b45;
         text-align: center;
-        font-size: .6em;
+        font-size: .8em;
     }
     .menu-button-container {
         display: flex;
@@ -152,5 +152,16 @@ html, body {
     }
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
+    }
+    article h2 {
+        font-size: 1.1em;
+    }
+    article p {
+        font-size: .8em;
+    }
+    footer {
+        border-top: 1px solid #f46b45;
+        text-align: center;
+        font-size: .6em;
     }
     

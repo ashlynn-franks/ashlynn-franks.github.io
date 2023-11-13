@@ -43,4 +43,26 @@ html, body {
             padding: 0;
         }    
     }
-    
+    table.third {    
+        border-collapse: collapse; 
+        caption-side: bottom;
+    }
+    table.third th {
+        background-color: lightgreen;
+    }
+    table.third th, table.second td {
+        padding: 0.7em;  
+        vertical-align: middle;
+    }
+    table.third thead tr:first-child{     
+        border-bottom: 2px solid red;
+    }
+    @media only screen and (max-width: 425px) {
+        th, td {
+            display: block;
+        }
+        thead, td.number {
+            display: none;
+            padding: 0;
+        }    
+    }
